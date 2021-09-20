@@ -31,4 +31,8 @@ Tomcat Server Stop -> Remove context site -> Tomcat Server Restart<br><br>
 
  ## web.xml
  web.xml파일을 Tomcat폴더에서 복사해서<br>
- 프로젝트명 - src/main/webapp/WEB-INF/web.xml이 위치하도록 붙여넣기
+ 프로젝트명 - src/main/webapp/WEB-INF/web.xml이 위치하도록 붙여넣기<br><br>
+
+## 문서 생성시 문자형식 설정
+Window -> Preferences -> Web<br>
+CSS Files/HTML Files/JSP Files -> Encoding : UTF-8<br><br>
