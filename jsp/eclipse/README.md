@@ -36,3 +36,14 @@ Tomcat Server Stop -> Remove context site -> Tomcat Server Restart<br><br>
 ## 문서 생성시 문자형식 설정
 Window -> Preferences -> Web<br>
 CSS Files/HTML Files/JSP Files -> Encoding : UTF-8<br><br>
+
+## .html -> .jsp 변환 시 한글 깨짐
+.jsp [ALT]+[ENTER] -> Text file encoding -> Other : UTF-8 <br><br>
+**코드블럭 추가**
+```
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+pageEncoding="UTF-8"%>
+```
+<br><br>
+## JDBC(.jar 추가)
+path : WEB-INF/lib/ojdbc8.jar
