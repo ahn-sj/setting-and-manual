@@ -47,3 +47,14 @@ pageEncoding="UTF-8"%>
 <br><br>
 ## JDBC(.jar 추가)
 path : WEB-INF/lib/ojdbc8.jar
+
+## View에서 사용하는 제어구조 - JSTL
+JSTL(Jsp Standard Tag Library) <br>
+JSTL.jar를 추가해야 사용할 수 있다<br>
+https://mvnrepository.com/artifact/javax.servlet/jstl/1.2
+<br><br>
+JSTL을 사용하기 위해 View(.jsp)페이지에 코드 지시자 블럭을 추가<br>
+```
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+```
+
